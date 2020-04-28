@@ -20,3 +20,27 @@
 <li>HTTP 는 웹브라우저(Client)와 서버(Server)간의 텍스트를 교환한다.</li>
 <li>HTTPS는 인터넷 상에서 정보를 암호화하는 SSL(Secure Socket Layer)프로토콜을 이용하여 웹브라우저(클라이언트)와 서버가 데이터를 주고 받는 통신 규약이다.</li>
 </ul>
+
+<h4>Git 학습내용</h4>
+<ul>
+<li>
+<p>Branch란? : 가지라는 뜻으로, 작업을 분기해서 처리하는 경우를 말한다.</p>
+</li>
+<li>
+<p>Branch의 종류 : Camera Branch(새로운 브랜치), Master Branch(원래 있던 브랜치)</p>
+</li>
+<li>
+<p>Branch conflict</p>
+</li>
+</ul>
+<ol>
+<li>병합 충돌이 생기는 원인 :  두 계정 사이에 수정이 동시에 벌이지는 경우에 충돌이 자주 생긴다.</li>
+</ol>
+<ul>
+<li>해결방법</li>
+</ul>
+<ol>
+<li>‘&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD’ 부터 ‘=<mark><mark><mark>’ 사이의 구간이 현재 체크 아웃된 파일의 내용이고 ‘</mark></mark></mark>=’ 부터 ‘&gt;&gt;&gt;&gt;&gt;&gt;&gt;서버주소’의 구간이 병합하려는 대상인 브랜치의 코드 내용이다.</li>
+<li>이 정보를 참고로해서 두개의 코드를 병합한 후에 특수기호들을 제거해주면 된다.</li>
+<li>작업이 끝나면 파일을 저장.</li>
+</ol>
